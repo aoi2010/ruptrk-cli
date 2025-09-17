@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ruptrk-cli"
+version = "1.0.0"
+description = "RUPTRK CLI - A basic stock and sales tracker by Aoishik Khan."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Aoishik Khan", email = "aoishikkhan@gmail.com" }
+]
+keywords = ["stocks", "sales", "cli", "inventory", "ruptrk"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+dependencies = [
+    "platformdirs>=3.0",
+]
+
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/aoi2010/ruptrk-cli"
+Repository = "https://github.com/aoi2010/ruptrk-cli"
+Issues = "https://github.com/aoi2010/ruptrk-cli/issues"
+
+[project.scripts]
+ruptrk-cli = "ruptrk_cli.cli:main"
