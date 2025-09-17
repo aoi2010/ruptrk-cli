@@ -1,5 +1,9 @@
 from setuptools import setup, find_packages
-from ruptrk_cli import __version__, __author__, __license__, __email__
+
+__version__ = "0.1.0"
+__author__ = "Aoishik Khan"
+__email__ = "aoishikkhan@gmail.com"
+__license__ = "MIT"
 
 setup(
     name="ruptrk-cli",
