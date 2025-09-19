@@ -15,16 +15,16 @@ Made by **Aoishik Khan** 🇮🇳 a 15yrs old boy.
 ### Using pip
 #### Windows
 ```bash
-python -m pip install ruptrk-cli
+python -m pip install -i https://test.pypi.org/simple/ ruptrk-cli
 ```
 
 #### Linux / MacOS
 ```bash
-pip3 install ruptrk-cli
+pip3 install -i https://test.pypi.org/simple/ ruptrk-cli
 ```
 or
 ```bash
-python3 -m pip install ruptrk-cli
+python3 -m pip install -i https://test.pypi.org/simple/ ruptrk-cli
 ```
 
 ### From Source
